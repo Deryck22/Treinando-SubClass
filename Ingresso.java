@@ -28,39 +28,3 @@ public sealed abstract class Ingresso permits Inteira, Meia {
 	}
 
 	
-	
-	/*
-	 * praticando com os meus conceitos:
-	 * 
-	 * private String nomeDoFilme;
-	
-	private int valor = 95;
-	
-	private String informacao;
-	
-	
-	public String getNomeDoFilme() {
-		return " Nome do filme: "+nomeDoFilme;
-	}
-
-	public void setNomeDoFilme(String nomeDoFilme) {	
-		this.nomeDoFilme = nomeDoFilme;
-		
-	}
-
-	public int getValor() {
-		return valor ;
-	}
-
-
-
-	public String getInformacao() {
-		return " Audio: "+informacao;
-	}
-
-	public void setInformacao(String informacao) {
-		this.informacao = informacao;
-	}
-
-	*/
-
