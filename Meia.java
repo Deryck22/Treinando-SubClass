@@ -26,18 +26,3 @@ public final class Meia extends Ingresso{
 			
 		}
 	}
-
-	
-	/*
-	 * praticando com os meus conceitos:
-	 * 
-	 * private int codIngressoMeia = 4;
-	
-	public String getCodIngressoMeia() {
-		return "\n Digito verificador : "+codIngressoMeia ;
-	}*/
-
-	
-		
-
-
