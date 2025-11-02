@@ -1,0 +1,66 @@
+package DioConceitoHerençaExercicio;
+
+public sealed abstract class Ingresso permits Inteira, Meia {
+	
+	// Codigo melhorado
+	
+	    private String nomeDoFilme;
+	    private int valor;
+	    private String informacao;
+
+	    public Ingresso(int valor, String nomeDoFilme, String informacao) {
+	        this.valor = valor;
+	        this.nomeDoFilme = nomeDoFilme;
+	        this.informacao = informacao;
+	    }
+
+	    public int getValor() {
+	        return valor;
+	    }
+
+	    public String getNomeDoFilme() {
+	        return nomeDoFilme;
+	    }
+
+	    public String getInformacao() {
+	        return informacao;
+	    }
+	}
+
+	
+	
+	/*
+	 * praticando com os meus conceitos:
+	 * 
+	 * private String nomeDoFilme;
+	
+	private int valor = 95;
+	
+	private String informacao;
+	
+	
+	public String getNomeDoFilme() {
+		return " Nome do filme: "+nomeDoFilme;
+	}
+
+	public void setNomeDoFilme(String nomeDoFilme) {	
+		this.nomeDoFilme = nomeDoFilme;
+		
+	}
+
+	public int getValor() {
+		return valor ;
+	}
+
+
+
+	public String getInformacao() {
+		return " Audio: "+informacao;
+	}
+
+	public void setInformacao(String informacao) {
+		this.informacao = informacao;
+	}
+
+	*/
+
